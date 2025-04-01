@@ -1,0 +1,71 @@
+body{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.App{
+  display: flex;
+}
+
+.same-width-cont{
+  width: 50dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2E8C6;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  color: #800000;
+  font-style: italic;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.btn{
+  display: flex;
+}
+
+button{
+  background-color: #F2E8C6;
+  color: #800000;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #800000;
+  text-transform: uppercase;
+}
+
+.container-fotos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-cont-fotos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 250px;
+  background-color: #DAD4B5;
+  padding: 10px;
+  margin: 10px;
+}
+
+h6{
+  margin: 5px;
+}
+
+.btn-remove{
+  margin-top: auto;
+  font-size: small;
+}
+
+.btn-delete{
+  background-color: #982B1C;
+  color: #F2E8C6;
+}
